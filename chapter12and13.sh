@@ -12,6 +12,15 @@ echo "the server from other machines by going to http://LOCALIP:8000"
 echo "The local IP portion will be your local machines ip for example 10.1.2.4"
 sleep 3s
 echo
+echo "rsync is a very powerful transfer command. For example we used it in class to"
+echo "transfer our ssh keys from our local computers to the sootsplash web server."
+echo "This was accomplished with the following command -
+echo
+echo "rsync -Pav luschool.pub luschool@sootsplash.csci2461.com:./.ssh/luschool.pub"
+echo
+echo
+read -p "Press enter when youre ready to view a surprise."
+echo
 echo $''
 echo $'      _,.'
 echo $'    ,` -.)'
@@ -36,3 +45,5 @@ echo $'          ()`'
 echo "Most of chapter 12 and 13 covers configuring files and services that wouldn't"
 echo "be accessible or shown easily from a script thats run on another machine."
 echo "So here is a fearless warrior I copy pasted to protect my grade."
+echo
+echo "I used the rest of my time working hard on our group project."
